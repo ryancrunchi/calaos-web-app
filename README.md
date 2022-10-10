@@ -1,20 +1,35 @@
 Webapp for Calaos
 -----------------
 
-To build, install nodejs, and:
-```
-npm install -g bower gulp
-```
+To build, install nodejs or yarn, and:
 Then install dependencies:
+With yarn:
+```
+yarn
+```
+
+With npm:
 ```
 npm install
-bower install
 ```
+
 Then to build the app:
+With yarn:
 ```
-gulp
+yarn build
 ```
+
+With npm:
+```
+npx gulp
+```
+
 To develop with livereload:
+With yarn:
+```
+yarn start
+```
+With npm:
 ```
 gulp serve
 ```
